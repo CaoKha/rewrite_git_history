@@ -4,3 +4,4 @@ target/
 xls/
 zips/
 .vscode/
+Cargo.lock
