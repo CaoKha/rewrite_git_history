@@ -1,0 +1,6 @@
+parquets/
+csv/
+target/
+xls/
+zips/
+.vscode/
