@@ -1,0 +1,7 @@
+parquets/
+csv/
+target/
+xls/
+zips/
+.vscode/
+Cargo.lock
