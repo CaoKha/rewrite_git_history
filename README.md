@@ -1,7 +1,3 @@
-## Note
-- Poclain did not give me a performance laptop, hence, I did not have the time to refactor the code. 
-- All the logic is written in main() function.
-
 ## Usage
 ### Prerequisites
 #### prepare-tables
