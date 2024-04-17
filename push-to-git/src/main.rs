@@ -127,7 +127,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     .unwrap_or("no_author_found")
                     .to_owned();
                 let author_email =
-                    author_name.replace(" ", "").to_lowercase().clone() + "@poclain.com";
+                    author_name.replace(" ", "").to_lowercase().clone() + "@allianz.com";
                 let git_info = GitInfo::new(date, better_comment, author_name, author_email, unique_reference);
 
                 // First init, create a initial branch with message `first init`
@@ -177,7 +177,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     .get(ref_index)
                     .unwrap_or("no_author_found")
                     .to_owned();
-                let author_email = author_name.replace(" ", "").clone() + "@poclain.com";
+                let author_email = author_name.replace(" ", "").clone() + "@allianz.com";
                 let git_info = GitInfo::new(date, better_comment, author_name, author_email, unique_reference.to_owned());
                 if !contains_substring(
                     &reference_list,
