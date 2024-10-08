@@ -1,5 +1,5 @@
 # Restore git history
-[legacy_git.png](./docs/legacy_git.png)
+![legacy_git.png](./docs/legacy_git.png)
 ## Usage
 ### Prerequisites
 #### prepare-tables
